@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.page {
+  margin: 0 18px;
+  cursor: pointer;
+}

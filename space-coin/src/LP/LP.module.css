@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  background: #d3d3d3;
+  border-radius: 18px;
+}
+
+.add {
+  padding: 14px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.inputContainer {
+  margin-top: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+  width: 100%;
+}
+
+.inputContainer input {
+  color: white;
+  font-family: "Roboto Mono";
+}
+
+.inputBox {
+  display: flex;
+}
+
+.input {
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  background: #212429;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+
+.input button:disabled {
+  background-color: darkslategray;
+}
+
+.inputContainer svg {
+  margin: 14px 0;
+}
+
+.actions {
+  font-family: "Roboto Mono";
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.actions button {
+  font-family: "Roboto Mono";
+  margin-left: 10px;
+}
+
+.balance {
+  color: gray;
+  font-size: 12px;
+  margin-top: 2px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.remove {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
